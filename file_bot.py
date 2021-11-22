@@ -43,7 +43,7 @@ def echo(update, context):
     update.message.reply_text(update.message.text)
 
 
-def error(update, context):
+def error(update, context):     # this is ERROR
     """Log Errors caused by Updates."""
     logger.warning('Update "%s" caused error "%s"', update, context.error)
 
